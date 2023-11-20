@@ -1,4 +1,5 @@
 .myBtn {
+    box-sizing: border-box;
     padding: 5px 15px;
     margin: 10px 0;
     color: teal;
@@ -7,4 +8,8 @@
     border-radius: 8px;
     border: 1px solid teal;
     cursor: pointer;
+}
+
+.myBtn:hover {
+    box-shadow: -4px 4px 7px rgba(0, 0, 255, .2);
 }
